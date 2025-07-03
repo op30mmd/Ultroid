@@ -9,9 +9,6 @@ from . import *
 from .colab import colab_fix
 
 colab_fix()
-from .colab import colab_fix
-
-colab_fix()
 
 
 def main():

@@ -2,8 +2,11 @@
 
 # This script is for running Ultroid on Google Colab.
 
+# Install telethonpatch first
+pip install https://github.com/New-dev0/Telethon-Patch/archive/main.zip
+
 # 1. Clone the repository
-git clone https://github.com/TeamUltroid/Ultroid
+git clone https://github.com/op30mmd/Ultroid
 cd Ultroid
 
 # 2. Create a .env file

@@ -31,7 +31,6 @@ def colab_fix():
     # 3. Install Python requirements
     print("Installing Python requirements...")
     run([sys.executable, "-m", "pip", "install", "-q", "--upgrade", "pip"], check=True)
-    run([sys.executable, "-m", "pip", "install", "-q", "https://github.com/New-dev0/Telethon-Patch/archive/main.zip"], check=True)
     run([sys.executable, "-m", "pip", "install", "-q", "-r", "requirements.txt"], check=True)
     if os.path.exists("resources/startup/optional-requirements.txt"):
         run([sys.executable, "-m", "pip", "install", "-q", "-r", "resources/startup/optional-requirements.txt"], check=True)

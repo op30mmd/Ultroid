@@ -15,9 +15,11 @@ cp .env.sample .env
 sed -i 's/^API_ID=$/API_ID=6/' .env
 sed -i 's/^API_HASH=$/API_HASH=YOUR_API_HASH/' .env
 sed -i 's/^SESSION=$/SESSION=YOUR_STRING_SESSION/' .env
+sed -i 's/^LOG_CHANNEL=$/LOG_CHANNEL=0/' .env
 
 echo "======================================================================"
 echo "IMPORTANT: Please edit the .env file with your actual API_ID, API_HASH, and SESSION."
+echo "LOG_CHANNEL has been set to 0 by default. Update if needed."
 echo "You can find the .env file in the 'Ultroid' directory."
 echo "======================================================================"
 

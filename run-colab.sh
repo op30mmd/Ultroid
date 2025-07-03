@@ -2,6 +2,9 @@
 
 # This script is for running Ultroid on Google Colab.
 
+# Remove existing Ultroid directory if it exists
+rm -rf Ultroid
+
 # 1. Clone the repository
 git clone https://github.com/op30mmd/Ultroid
 cd Ultroid
